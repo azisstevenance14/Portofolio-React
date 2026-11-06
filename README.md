@@ -1,16 +1,39 @@
-# React + Vite
+🚀 Mini Portofolio Interaktif (React JS + Bootstrap 5)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Dokumentasi proyek Mini Portofolio yang dibangun menggunakan React JS via Vite, serta di-style secara responsif menggunakan framework Bootstrap 5. Proyek ini menerapkan arsitektur komponen modular (Child Components) yang terpisah dan terorganisir dengan baik.
 
-Currently, two official plugins are available:
+📌 Fitur & Komponen Utama
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Navbar (Navbar.jsx): Bilah navigasi utama berlatar gelap yang bersih dan responsif.
 
-## React Compiler
+Hero Section (Hero.jsx): Bagian landing/perkenalan utama dengan CTA (Call to Action).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Skills Showcase (Skills.jsx): Kartu-kartu interaktif berbasis array mapping untuk menampilkan fokus keahlian (Web Frontend, Backend Logic, & IoT/Embedded System).
 
-## Expanding the ESLint configuration
+Footer (Footer.jsx): Bagian penutup halaman portofolio dengan hak cipta dan informasi ringkas.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🛠️ Teknologi & Tools
+
+React JS (Vite Template)
+
+Bootstrap 5 (Di-install via NPM)
+
+Node Package Manager (NPM)
+
+Git & Git Bash (CLI Workflow)
+
+📁 Arsitektur & Struktur Folder
+
+.
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Footer.jsx      # Komponen penutup
+│   │   ├── Hero.jsx        # Komponen perkenalan utama
+│   │   ├── Navbar.jsx      # Komponen navigasi
+│   │   └── Skills.jsx      # Komponen kartu keahlian
+│   ├── App.jsx             # Orchestrator / Layout utama
+│   ├── index.css           # Custom style tambahan
+│   └── main.jsx            # Entry point React DOM & Bootstrap CSS import
+├── package.json
